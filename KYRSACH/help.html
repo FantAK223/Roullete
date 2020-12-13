@@ -1,0 +1,67 @@
+<?php session_start();?> 
+<!DOCTYPE html>
+<html >
+<head>
+	<meta charset="utf-8">
+	<title>привет</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="home.css">
+    <link rel="stylesheet" type="text/css" href="help.css">
+<script src='http://code.jquery.com/jquery-2.1.1.min.js'></script>
+
+</head>
+<body>
+
+<!-- Шапка -->
+<header class="header">
+	<div class="header_inner">
+<div class="blok-menu">
+
+<div class="menu">
+    
+	<div class="menu_nadpis"><a class="menu__logo">VALORANT</a>
+    <a class="menu__roullete">Roulette</a></div>
+<div class="menu_nav">
+<a class="menu__item" href="index.php">Home</a>
+<a class="menu__item" href="help.html">Help</a>
+<a class="menu__item2" href="login.php">Sign</a>
+</div>
+
+<?
+
+if(isset($_SESSION["session_username"])):
+    $username = $_SESSION["session_username"];
+    ?>
+    <div id="welcome">
+    <h2> <a> <span class="welcome">Welcome</a> <a><?php echo $_SESSION['session_username'];?></a> </span></h2>
+      <p class="exit"><a href="logout.php">Exit</a></p>
+    </div>
+
+<?php endif; ?>
+</div>
+
+
+</div>
+</div>
+</header>
+<div class="help_block"> 
+    <img src="screen_help.png">
+
+
+</div>
+
+
+
+<!-- SOONER OR LATER LUCK WILL CATCH UP WITH YOU -->
+
+
+
+
+
+
+
+
+
+	
+</body>
+</html>

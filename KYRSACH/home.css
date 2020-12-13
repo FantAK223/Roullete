@@ -1,0 +1,572 @@
+*
+{
+margin:0px ;
+padding:0px;
+}
+
+
+
+
+/*.menu li
+{
+float:left;
+list-style: none;
+
+margin:10px 25px ;
+}*/
+
+.container{
+	max-width: 1710px;
+	padding: 0px 15px;
+	margin: 0 auto;
+}
+
+.cnt{
+	background-color : #27282f;
+	border-radius: 5px;
+	
+}
+
+html
+{
+	box-sizing: border-box;
+	background: url(main.png) 0 0 / 100% repeat;
+}
+
+.header_inner
+{
+background: #191e23;
+height: 65px;
+width: 100%;
+box-shadow: 0px 13px 17px -6px #000000;
+}
+
+.menu__roullete
+{
+ padding-left: 10px;
+   font-size: 25px;
+}
+
+.menu__logo
+{
+  font-size: 40px;
+}
+
+.blok-menu
+{
+
+margin: 0 auto;
+max-width: 100%;
+padding-top: 10px;
+}
+
+.menu 
+{
+color: #FF4500;
+/*align-items: center;
+margin: 0 auto;
+margin-right: 600px;*/
+display: flex;
+flex-direction: row;
+/*justify-content: space-between; */
+
+}
+
+.menu_nadpis{
+	width: 380px;
+}
+
+.menu_nav{
+	/* color: #FF4500; */
+align-items: center;
+width: 600px;
+margin-left: 300px;
+/* margin: 0 auto; */
+/* margin-right: 600px; */
+display: flex;
+flex-direction: row;
+/* justify-content: space-between; */
+}
+
+.welcome{
+	
+	font-family: 'Anton', sans-serif;
+	font-size: 20px;
+}
+
+#welcome{
+	margin-left: 100px;
+}
+
+.exit{
+	text-align: center;
+	
+}
+
+.exit :hover{
+	color:green;
+}
+
+.menu a
+{
+font-family:  VALORANT, sans-serif;
+color:#b84242;
+text-decoration: none;
+text-shadow: 1px 0 1px #000, 
+0 1px 1px #000, 
+-1px 0 1px #000, 
+0 -1px 1px #000;
+
+}
+
+
+.menu__item
+{
+padding-right: 150px;
+font-size: 35px;
+}
+
+.menu__item2
+{
+padding-right: 100px;
+font-size: 35px;
+}
+
+.menu__item:hover
+{
+font-family: VALORANT, sans-serif;
+color:#b84242;
+
+text-decoration: none;
+text-shadow: 3px 0 3px #000, 
+0 2px 2px #000, 
+-2px 0 2px #000, 
+0 -2px 2px #000;
+}
+
+.menu__item2:hover
+{
+font-family: VALORANT, sans-serif;
+color:green;
+
+text-decoration: none;
+text-shadow: 3px 0 3px #000, 
+0 2px 2px #000, 
+-2px 0 2px #000, 
+0 -2px 2px #000;
+}
+
+.menu__item:last-child
+{
+	padding-right: 500px;
+}
+.menu__item2:last-child
+{
+	padding-right: 0px;
+}
+
+
+
+
+
+.block
+{
+	display : inline-block;
+	margin: 20px; 
+
+	padding-top: 20px;
+	max-width : 100%; 
+	height: 80px;
+	background-color : #27282f;
+	border-radius: 5px; 
+	text-align : center; 
+	background-color : 3px solid green; 
+	margin-bottom : 5px; 
+}
+
+div.block2
+{
+	display : inline-block;
+	padding-top: 5px;
+	width : 100%; 
+	border-radius: 5px; 
+	text-align : center; 
+	background-color : 3px solid green; 
+	margin-bottom : 5px; 
+}
+
+
+
+
+
+.block a
+{
+	font-family:  VALORANT, sans-serif;
+color: white;
+	text-decoration: none;
+	text-shadow: 
+		-0   -1px 1px #BA4E4E,
+		 0   -1px 1px #BA4E4E,
+		-0    1px 1px #BA4E4E,
+		 0    1px 1px #BA4E4E,
+		-1px -0   1px #BA4E4E,
+		 1px -0   1px #BA4E4E,
+		-1px  0   1px #BA4E4E,
+		 1px  0   1px #BA4E4E,
+		-1px -1px 1px #BA4E4E,
+		 1px -1px 1px #BA4E4E,
+		-1px  1px 1px #BA4E4E,
+		 1px  1px 1px #BA4E4E,
+		-1px -1px 1px #BA4E4E,
+		 1px -1px 1px #BA4E4E,
+		-1px  1px 1px #BA4E4E,
+		 1px  1px 1px #BA4E4E;
+}
+
+.SOONER
+{
+	font-size: 64.5px;
+}
+
+
+
+.block__bet
+{
+		display : inline-block;
+	width : 100%; 
+	height: 200px;
+	background-color : #27282f; 
+	border-radius: 5px; 
+	text-align : center; 
+	
+}
+
+.cnt_bet{
+	margin-top: 20px;
+}
+
+
+
+.block__bet span 
+{
+
+    font-family:  VALORANT, sans-serif;
+color:#b84242;
+text-decoration: none;
+text-shadow: 1px 0 1px #000, 
+0 1px 1px #000, 
+-1px 0 1px #000, 
+0 -1px 1px #000;
+}
+
+
+.block_balance
+{
+padding-left: 20px;  
+
+display: flex;
+justify-content: space-between;
+
+}
+
+.balance_style_text
+{
+	font-size: 35px;
+font-family:  VALORANT, sans-serif;
+color:#b84242;
+text-decoration: none;
+text-shadow: 1px 0 1px #000, 
+0 1px 1px #000, 
+-1px 0 1px #000, 
+0 -1px 1px #000;
+}
+
+
+.block__button
+{
+    background-color: #4CAF50; 
+    border-radius: 5px;
+    color: white;
+    
+    margin-top: 50px;
+  
+    padding: 15px 10px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.top_bar
+{
+	width: 550px;
+	height: 50px;
+	
+    text-align: center;
+
+padding: 0px;
+}
+
+.top_bar input
+{
+    background-color: #27282f;
+    border: 2px solid white;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 10px;
+    margin-right: -4px;
+    cursor: pointer;
+}
+.top_bar input:hover
+{
+    background-color: #C55656;
+}
+
+.button_style
+{
+font-family:  VALORANT, sans-serif;
+color:#b84242;
+text-decoration: none;
+text-shadow: 1px 0 1px #000, 
+0 1px 1px #000, 
+-1px 0 1px #000, 
+0 -1px 1px #000;
+}
+
+.betBlack
+{
+margin-top: 20px;
+font-family:  VALORANT, sans-serif;
+font-size: 25px;
+color:rgb(32, 30, 30);
+text-decoration: none;
+text-shadow: 1px 0 1px #000, 
+0 1px 1px #000, 
+-1px 0 1px #000, 
+0 -1px 1px #000;
+}
+
+.betBlack:hover
+{
+    background-color: #C55656;
+}
+
+.betRed
+{
+margin-top: 20px;
+font-family:  VALORANT, sans-serif;
+font-size: 25px;
+color:Red;
+text-decoration: none;
+text-shadow: 1px 0 1px #000, 
+0 1px 1px #000, 
+-1px 0 1px #000, 
+0 -1px 1px #000;
+}
+
+.betRed:hover
+{
+    background-color: #C55656;
+}
+
+.betGreen
+{
+margin-top: 20px;
+font-family:  VALORANT, sans-serif;
+font-size: 25px;
+color:Green;
+text-decoration: none;
+text-shadow: 1px 0 1px #000, 
+0 1px 1px #000, 
+-1px 0 1px #000, 
+0 -1px 1px #000;
+margin-right: 20px;
+}
+
+.betGreen:hover
+{
+    background-color: #C55656;
+}
+
+.balance_block{
+	margin-left: -130px;
+}
+
+.amount_block{
+	margin-left: -180px;
+}
+
+.balance{
+	font-size: 25px;
+	
+}
+
+.cnt_Black{
+	width: 400px;
+	height: 100px;
+	background-color: #27282f;
+	border-radius: 10px;
+	margin-right: 50px;
+}
+
+.cnt_Green{
+	width: 400px;
+	height: 100px;
+	background-color: #27282f;
+	border-radius: 10px;
+}
+
+.cnt_Red{
+	
+	width: 400px;
+	height: 100px;
+	background-color: #27282f;
+	border-radius: 10px;
+	margin-left: 50px;
+}
+
+.cnt_user_black{
+	background-color: black;
+	margin-top: 10px;
+	width: 300px;
+	margin-left: 30px;
+	height: 300px;
+}
+
+.cnt_user_green{
+	background-color: green;
+	margin-top: 10px;
+	width: 300px;
+	margin-left: 30px;
+	height: 300px;
+}
+
+.cnt_user_red{
+	background-color: red;
+	margin-top: 10px;
+	width: 300px;
+	margin-left: 30px;
+	height: 300px;
+}
+
+.bottom_bar
+{
+	width: 750px;
+	height: 100px;
+	
+    text-align: center;
+
+padding: 0px;
+}
+
+.bottom_bar input
+{
+    background-color: #27282f;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.bet_color{
+	display: flex;
+	margin-left: 200px;
+	margin-top: 50px;
+    width: 900px;
+    height: 250px;
+}
+
+.balance{
+	display: flex;
+	align-items: center;
+	font-family: VALORANT, sans-serif;
+    color: #b84242;
+    text-decoration: none;
+    text-shadow: 1px 0 1px #000, 0 1px 1px #000, -1px 0 1px #000, 0 -1px 1px #000;
+}
+
+.input__window
+{
+    margin-top: 15px;
+	 margin-right: 360px; 
+}
+
+.style__window
+{
+
+font-family: VALORANT, sans-serif;
+font-size: 16px;
+color:#b84242;
+text-decoration: none;
+text-shadow: 1px 0 1px #000, 
+0 1px 1px #000, 
+-1px 0 1px #000, 
+0 -1px 1px #000;
+	padding: 5px 20px;
+}
+
+.printBlock__style
+{
+margin-top: 20px;
+margin-left: 200px;
+width: 300px;
+height: 100px;
+}
+
+
+/*.logo
+{
+margin:0 auto;
+width:200px;
+margin-top:30px;
+margin-bottom:30px;
+}
+
+
+.content
+{
+width:1000px;
+margin:0 auto;
+padding:30px;
+box-shadow: 0 1px 6px rgba(0, 0, 0, .3), -23px 0 20px -23px rgba(0, 0, 0, .8), 23px 0 20px -23px rgba(0, 0, 0, .8), 0 0 40px rgba(0, 0, 0, .1) inset;
+}
+ 
+.content h2
+{
+font: 30px Verdana, Arial, Helvetica, sans-serif;
+color:#444;
+text-align:center;
+}
+ 
+.content p
+{
+font: 16px Verdana, Arial, Helvetica, sans-serif, bold;
+color:#444;
+text-indent:24px;
+Text-align: center;
+}
+
+.footer
+{
+width:100%;
+text-align:center;
+margin-top:20px;
+}
+.footer p, .footer a
+{
+font: 14px Verdana, Arial, Helvetica, sans-serif;
+color:#444;
+}
+ 
+.footer a
+{
+text-decoration: none;
+border-bottom:1px dotted #444;
+}
+ 
+.footer a:hover
+{
+text-decoration: none;
+border:0px;
+}*/
